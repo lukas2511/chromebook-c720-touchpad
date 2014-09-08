@@ -11,7 +11,8 @@ groups=('chromarchy')
 url="https://github.com/hugegreenbug/xf86-input-cmt"
 license=('custom:chromiumos')
 _gitname='xf86-input-cmt'
-makedepends=('git')
+makedepends=('git' 'xproto' 'inputproto' 'xorg-server-devel' 'libgestures' 'libevdevc')
+depends=('libgestures' 'libevdevc')
 
 source=("$_gitname::git+https://github.com/hugegreenbug/xf86-input-cmt.git")
 

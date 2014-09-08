@@ -1,0 +1,7 @@
+*/src
+*/pkg
+*/*.pkg.tar.xz
+*/*.pkg.tar.xz.sig
+libevdevc/libevdevc
+libgestures/gestures
+xf86-input-cmt/xf86-input-cmt
